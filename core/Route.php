@@ -4,7 +4,7 @@ namespace core;
 /**
  * class routing
  */
-class Route {
+class Route{
 
     /**
      * method for routing url
@@ -18,6 +18,7 @@ class Route {
         } else {
             $controller = "\controller" . str_replace('/', '\\', $request);
         }
+
         $object = new $controller;
         $object->index();
     }

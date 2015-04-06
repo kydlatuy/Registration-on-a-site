@@ -5,7 +5,7 @@ namespace core;
 /**
  * class templation
  */
-class Template {
+class Template{
     
     /**
      *

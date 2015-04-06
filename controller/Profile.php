@@ -5,13 +5,13 @@ namespace controller;
 /**
  * profile controller
  */
-class Profile {
+class Profile{
     
     /**
      * 
      */
 
-    public function __construct() {
+    public function __construct(){
         $this->db = \core\DataBase::getConnect();
     }
 

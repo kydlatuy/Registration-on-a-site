@@ -4,7 +4,7 @@ namespace classes;
 /**
  * auth class
  */
-class Auth {
+class Auth{
     
     /**
      *
@@ -24,7 +24,7 @@ class Auth {
      * 
      */
 
-    public function __construct() {
+    public function __construct(){
         $this->db = \core\DataBase::getConnect();
     }
     

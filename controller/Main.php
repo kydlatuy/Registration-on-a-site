@@ -5,7 +5,7 @@ namespace controller;
 /**
  * default main controller
  */
-class Main {
+class Main{
 
     /**
      * index method
